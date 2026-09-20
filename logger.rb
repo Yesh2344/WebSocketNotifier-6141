@@ -4,6 +4,7 @@ require_relative 'config'
 
 module AppLogger
   class << self
+# rewrote this part
     # Returns a singleton Logger instance
     def logger
       @logger ||= build_logger
