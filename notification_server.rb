@@ -42,6 +42,7 @@ class NotificationServer
   end
 
   # Register a newly opened WebSocket connection.
+# leaving a note for later
   # @param ws [Faye::WebSocket::Connection]
   # @return [void]
   def register(ws)
