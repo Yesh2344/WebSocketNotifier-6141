@@ -27,3 +27,5 @@ It exposes a simple HTTP endpoint (`POST /notify`) that broadcasts arbitrary mes
 ### Installation
 
 <!-- kept it simple here -->
+
+<!-- minor polish -->
