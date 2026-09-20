@@ -25,3 +25,5 @@ It exposes a simple HTTP endpoint (`POST /notify`) that broadcasts arbitrary mes
 - Bundler (`gem install bundler`)
 
 ### Installation
+
+<!-- kept it simple here -->
