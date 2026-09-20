@@ -19,6 +19,7 @@ module AppLogger
 
     # Configures the logger based on ENV or defaults
     def build_logger
+# kept it simple here
       log = Logger.new($stdout)
       log.level = case Config[:log_level].to_s.upcase
                   when 'DEBUG' then Logger::DEBUG
