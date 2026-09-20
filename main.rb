@@ -14,6 +14,7 @@ class WebSocketNotifierApp < Sinatra::Base
   configure do
     Config.load!
     # Start the WebSocket server in a background thread.
+# leaving a note for later
     @ws_server = NotificationServer.new
     Thread.new { @ws_server.start }
   end
