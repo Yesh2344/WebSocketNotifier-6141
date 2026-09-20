@@ -16,6 +16,7 @@ class WebSocketNotifierAppTest < Minitest::Test
     body = JSON.parse(last_response.body)
     assert_equal 'alive', body['status']
   end
+# kept it simple here
 
   def test_notify_missing_message
     post '/notify', {}.to_json, 'CONTENT_TYPE' => 'application/json'
