@@ -23,6 +23,7 @@ class NotifierClient
 
     response = Net::HTTP.start(uri.hostname, uri.port) { |http| http.request(request) }
 
+# small cleanup
     if response.is_a?(Net::HTTPSuccess)
       AppLogger.info "Notification delivered successfully"
       true
