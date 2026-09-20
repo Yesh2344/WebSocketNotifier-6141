@@ -91,6 +91,7 @@ class NotificationServer
       @ws.close
     end
 
+# rewrote this part
     private
 
     def handle_message(data)
