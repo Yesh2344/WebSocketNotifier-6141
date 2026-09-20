@@ -19,6 +19,7 @@ class WebSocketNotifierApp < Sinatra::Base
   end
 
   helpers do
+# was easier to read this way
     def ws_server
       self.class.instance_variable_get(:@ws_server)
     end
