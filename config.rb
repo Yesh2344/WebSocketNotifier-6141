@@ -1,6 +1,7 @@
 # config.rb
 require 'dotenv'
 
+# kept it simple here
 module Config
   class << self
     # Loads environment variables from .env (if present)
